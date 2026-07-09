@@ -72,26 +72,26 @@ rakoon-tracker/
     └── specs/           # spécifications par fonctionnalité
 ```
 
-> Le code applicatif (`src/`, `prisma/`…) **n'existe pas encore** : le projet démarre par sa
-> documentation. La structure cible du code est décrite dans
+> Le code applicatif (`src/`, `prisma/`…) est **désormais en place** (v1 implémentée). Sa structure
+> est décrite dans
 > [`.ai/architecture.md`](./.ai/architecture.md#structure-des-dossiers-cible).
 
 ## ▶️ Comment lancer
 
-> ⚠️ **État actuel : documentation uniquement, aucun code applicatif.** Les commandes ci-dessous
-> sont la **cible** post-scaffolding et ne fonctionneront qu'une fois le projet Next.js généré.
+> Gestionnaire de paquets : **npm** (`package-lock.json`), aligné sur les autres applis Rakoon.
 
 ```bash
-# Prérequis : Node.js LTS + pnpm + une base PostgreSQL (ou Docker)
-pnpm install                 # installer les dépendances
+# Prérequis : Node.js LTS + npm + une base PostgreSQL (ou Docker)
+npm install                  # installer les dépendances
 cp .env.example .env         # configurer les variables d'environnement
-pnpm prisma migrate dev      # créer/mettre à jour le schéma de base
-pnpm dev                     # démarrer le serveur de développement
+npx prisma migrate dev       # créer/mettre à jour le schéma de base
+npm run db:seed              # jeu de données de démo (comptes Admin / Rapporteur)
+npm run dev                  # démarrer le serveur de développement
 
 # Qualité
-pnpm typecheck               # tsc --noEmit
-pnpm lint                    # ESLint
-pnpm test                    # Vitest (unit) + Playwright (e2e)
+npm run typecheck            # tsc --noEmit
+npm run lint                 # ESLint
+npm test                     # Vitest (unit)
 ```
 
 Déploiement → [`DEPLOY.md`](./DEPLOY.md).
