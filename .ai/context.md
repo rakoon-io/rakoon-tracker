@@ -38,7 +38,7 @@
 auth + RBAC, projets, Kanban dnd-kit, tickets + création paste-first + pièces jointes S3, vue liste +
 filtres, sprints / lots, paramètres (colonnes + labels), thème clair/sombre. Ajout de la **migration
 Prisma initiale**, du **seed** (comptes de démo), des **tests unitaires Vitest**, du `Dockerfile`
-(npm) + `.dockerignore`. Documentation (`README`, `CLAUDE`, `DEPLOY`, Memory Bank) **synchronisée**
+(npm) + `.dockerignore`. Documentation (`README`, `AGENTS`, `DEPLOY`, Memory Bank) **synchronisée**
 avec cette réalité (gestionnaire de paquets **npm** confirmé partout).
 
 Documentation créée / mise à jour lors de l'initialisation :
@@ -54,7 +54,7 @@ Documentation créée / mise à jour lors de l'initialisation :
   - `0004-pieces-jointes-paste-first.md`
   - `0005-deploiement-dokploy-ovh.md` *(nouveau — cible de déploiement)*
 - `specs/` — dossier de spécifications **+ 5 specs** (`0001`…`0005`).
-- [`../CLAUDE.md`](../CLAUDE.md) — garde-fou « à lire avant toute modif ».
+- [`../AGENTS.md`](../AGENTS.md) — garde-fou « à lire avant toute modif ».
 - [`../SPEC.md`](../SPEC.md) — cible produit détaillée de la v1.
 - [`../README.md`](../README.md) — présentation & quickstart.
 - [`../DEPLOY.md`](../DEPLOY.md) — **runbook Dokploy** (OVH / Traefik / `apps.rakoon.io`).
@@ -101,4 +101,4 @@ Rappel synthétique (détail dans [`decisions/`](./decisions/)) :
 
 > Références : [`vision.md`](./vision.md) · [`architecture.md`](./architecture.md) ·
 > [`rules.md`](./rules.md) · [`decisions/`](./decisions/) · [`../SPEC.md`](../SPEC.md) ·
-> [`../DEPLOY.md`](../DEPLOY.md) · [`../CLAUDE.md`](../CLAUDE.md)
+> [`../DEPLOY.md`](../DEPLOY.md) · [`../AGENTS.md`](../AGENTS.md)

@@ -2,6 +2,11 @@
 
 > Suivi de tickets sobre, moderne et personnalisable, adapté à l'agile.
 
+[![Licence : MIT](https://img.shields.io/badge/licence-MIT-green.svg)](./LICENSE)
+&nbsp;![Next.js 16](https://img.shields.io/badge/Next.js-16-black.svg)
+&nbsp;![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6.svg)
+&nbsp;![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Prisma-4169e1.svg)
+
 ## 📌 Statut
 
 > ✅ **Application v1 implémentée et vérifiée.**
@@ -45,7 +50,7 @@ Détails, couches et **modèle de données** → [`.ai/architecture.md`](./.ai/a
 
 ```
 rakoon-tracker/
-├── CLAUDE.md            # garde-fou "à lire avant toute modif" (pilote l'agent)
+├── AGENTS.md            # garde-fou "à lire avant toute modif" (pilote l'agent)
 ├── SPEC.md              # cible produit détaillée (v1)
 ├── README.md           # ce fichier — présentation & démarrage rapide
 ├── DEPLOY.md           # guide de déploiement Dokploy (apps.rakoon.io)
@@ -59,7 +64,7 @@ rakoon-tracker/
 ```
 
 Le **Memory Bank** (`.ai/`) est la source de vérité documentaire qui **pilote la génération de
-code** ; [`CLAUDE.md`](./CLAUDE.md) est le garde-fou à lire avant toute modification, qui renvoie
+code** ; [`AGENTS.md`](./AGENTS.md) est le garde-fou à lire avant toute modification, qui renvoie
 vers ce Memory Bank et impose le workflow.
 
 > ℹ️ Le code applicatif (`src/`, `prisma/`…) est **désormais en place** ; sa structure est décrite
@@ -111,7 +116,7 @@ Idéation → Plan → [validation] → Implémentation → Vérification (typec
 - Chaque décision structurante ⇒ un **ADR** dans [`.ai/decisions/`](./.ai/decisions/) ; chaque
   fonctionnalité ⇒ une **spec** dans [`.ai/specs/`](./.ai/specs/).
 
-À lire pour démarrer : [`CLAUDE.md`](./CLAUDE.md), [`SPEC.md`](./SPEC.md) et
+À lire pour démarrer : [`AGENTS.md`](./AGENTS.md), [`SPEC.md`](./SPEC.md) et
 [`.ai/vision.md`](./.ai/vision.md).
 
 ## 🚀 Déploiement
@@ -130,4 +135,4 @@ Idéation → Plan → [validation] → Implémentation → Vérification (typec
 
 ## 📄 Licence
 
-À définir.
+Distribué sous licence **MIT** — voir [`LICENSE`](./LICENSE). Contributions bienvenues.

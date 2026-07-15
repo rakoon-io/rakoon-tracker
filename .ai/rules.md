@@ -49,5 +49,5 @@
 
 - [`vision.md`](./vision.md) — North Star produit.
 - [`architecture.md`](./architecture.md) — patterns, conventions, modèle de données.
-- [`../CLAUDE.md`](../CLAUDE.md) — garde-fou « à lire avant toute modif ».
+- [`../AGENTS.md`](../AGENTS.md) — garde-fou « à lire avant toute modif ».
 - [`decisions/`](./decisions/) — ADR (décisions structurantes).

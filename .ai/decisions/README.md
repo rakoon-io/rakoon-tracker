@@ -27,7 +27,7 @@ pas : si la direction change, on ajoute un **nouvel** ADR qui la remplace (statu
 - **Nommage** : `000X-titre-en-kebab-case.md`, numérotation continue.
 - **Statuts** : `Proposée` → `Acceptée` → (`Remplacée` | `Dépréciée`).
 - **Immuabilité** : on ne réécrit pas une décision acceptée ; on en ouvre une nouvelle.
-- Toute **décision structurante** ⇒ un ADR (rappel dans [`CLAUDE.md`](../../CLAUDE.md)).
+- Toute **décision structurante** ⇒ un ADR (rappel dans [`AGENTS.md`](../../AGENTS.md)).
 
 ## 📝 Modèle vierge (à copier)
 

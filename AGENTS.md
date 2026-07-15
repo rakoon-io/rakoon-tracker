@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 > ## 📌 À lire avant toute modif
 > Avant d'écrire ou de modifier quoi que ce soit dans ce dépôt :
@@ -59,7 +59,7 @@ Détails, couches et **modèle de données** → [`.ai/architecture.md`](./.ai/a
 
 ```
 rakoon-tracker/
-├── CLAUDE.md            # ce fichier — garde-fou "à lire avant toute modif"
+├── AGENTS.md            # ce fichier — garde-fou "à lire avant toute modif"
 ├── SPEC.md              # cible produit détaillée
 ├── README.md           # présentation & quickstart
 ├── DEPLOY.md           # déploiement Dokploy (apps.rakoon.io)
